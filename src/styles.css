@@ -1,5 +1,5 @@
 body {
-    
+  background-color: rgba(48, 189, 194, 0.347);  
 }
 
 .bg-light {
@@ -33,11 +33,16 @@ h2 {
     justify-content: center;
 }
 
+.carousel-caption{
+    padding-bottom: 310px !important;
+    text-shadow: 1px 1px 4px black;
+}
+
 .main-image {
     width: 280px;
     height: 380px;
     border-radius: 5px;
-    
+    border: 10px solid rgba(67, 197, 201, 0.249);
 }
 
 .main-image-wrapper {
@@ -53,14 +58,14 @@ h2 {
 }
 
 .dessert-main-image {
-    width: 200px;
-    height: 180px;
-    border-radius: 8%;
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
 }
 .dessert-main-image-b {
     width: 350px;
-    height: 280;
-    border-radius: 8%;
+    height: auto;
+    
 }
 
 .footer {
