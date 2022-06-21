@@ -1,0 +1,28 @@
+body {
+    
+}
+
+.bg-light {
+    background: rgb(214,225,132);
+background: linear-gradient(90deg, rgba(214,225,132,1) 0%, rgba(245,102,153,1) 40%, rgba(255,255,255,1) 84%, rgba(229,237,178,1) 97%);
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+.col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+}
