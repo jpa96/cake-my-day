@@ -4,6 +4,8 @@ body {
 
 :root {
     --primary-font: 'Alex Brush', cursive;
+    --secondary-font: 'Joan', serif;
+
 }
 
 .bg-light {
@@ -24,11 +26,11 @@ body {
 }
 
 h1 {
-    
+  font-family: var(--secondary-font);  
 }
 
 h2 {
-
+    font-family: var(--secondary-font);  
 }
 
 .col-md-4 {
@@ -38,8 +40,7 @@ h2 {
 }
 
 .carousel-caption {
-    padding-bottom: 280px !important;
-    
+    padding-bottom: 280px !important;   
 }
 
 h5 {
@@ -58,7 +59,10 @@ h5 {
 .main-image-wrapper {
     justify-content: center; 
     display: flex;
-    flex: 1;
+}
+
+.desserts-header {
+    font-family: var(--primary-font);
 }
 
 .dessert-main-image-wrapper {
@@ -80,9 +84,30 @@ h5 {
 
 .footer {
     display: flex;
+    justify-content: space-evenly;
     position: static;
+    margin-top: 0px;
+    padding: 10px;
     bottom: 0;
     color: white;
-    background: rgb(241,103,152);
-    background: linear-gradient(0deg, rgba(241,103,152,0.783) 0%, rgba(48, 189, 194, 0.783) 38%, rgba(254, 237, 167, 0.783) 84%, rgba(255,255,255,0.783) 100%);
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    
+}
+
+.footer a {
+    margin-top: 40px;
+    text-decoration: none;
+    color: white; 
+    transition: .5s all ease-in-out;  
+}
+
+.footer a:hover {
+    font-size: 16px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
 }
