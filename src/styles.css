@@ -2,6 +2,10 @@ body {
   background-color: rgba(48, 189, 194, 0.347);  
 }
 
+:root {
+    --primary-font: 'Alex Brush', cursive;
+}
+
 .bg-light {
     
 }
@@ -33,9 +37,10 @@ h2 {
     justify-content: center;
 }
 
-.carousel-caption{
+.carousel-caption {
     padding-bottom: 310px !important;
     text-shadow: 1px 1px 4px black;
+    font-family: var(--primary-font);
 }
 
 .main-image {
