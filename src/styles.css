@@ -38,9 +38,14 @@ h2 {
 }
 
 .carousel-caption {
-    padding-bottom: 310px !important;
-    text-shadow: 1px 1px 4px black;
+    padding-bottom: 280px !important;
+    
+}
+
+h5 {
     font-family: var(--primary-font);
+    font-size: 38px;
+    text-shadow: 1px 1px 4px black;
 }
 
 .main-image {
