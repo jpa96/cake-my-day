@@ -3,12 +3,24 @@ body {
 }
 
 .bg-light {
-    background: rgb(214,225,132);
-background: linear-gradient(90deg, rgba(214,225,132,1) 0%, rgba(245,102,153,1) 40%, rgba(255,255,255,1) 84%, rgba(229,237,178,1) 97%);
+    
+}
+
+.menu-logo {
+    width: 80px;
+    height: auto;
+}
+
+.page-logo {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 280px;
+    height: auto;
 }
 
 h1 {
-
+    
 }
 
 h2 {
@@ -17,12 +29,45 @@ h2 {
 
 .col-md-4 {
     display: flex;
+    width: 33.3%;
     justify-content: center;
+}
+
+.main-image {
+    width: 280px;
+    height: 380px;
+    border-radius: 5px;
+    
+}
+
+.main-image-wrapper {
+    justify-content: center; 
+    display: flex;
+    flex: 1;
+}
+
+.dessert-main-image-wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.dessert-main-image {
+    width: 200px;
+    height: 180px;
+    border-radius: 8%;
+}
+.dessert-main-image-b {
+    width: 350px;
+    height: 280;
+    border-radius: 8%;
 }
 
 .footer {
     display: flex;
-    justify-content: space-evenly;
-    position: fixed;
+    position: static;
     bottom: 0;
+    color: white;
+    background: rgb(241,103,152);
+    background: linear-gradient(0deg, rgba(241,103,152,0.783) 0%, rgba(48, 189, 194, 0.783) 38%, rgba(254, 237, 167, 0.783) 84%, rgba(255,255,255,0.783) 100%);
 }
