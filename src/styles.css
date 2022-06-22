@@ -35,7 +35,7 @@ body {
 .page-logo {
     display: flex;
     justify-content: center;
-    margin: 20px auto;
+    margin: 0 auto;
     width: 280px;
     height: auto;
 }
