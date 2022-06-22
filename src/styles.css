@@ -9,13 +9,22 @@ body {
 }
 
 .navbar-dark {
-    font-family: var(--secondary-font);
-    text-shadow: 1px 1px 4px rgb(27, 129, 133);
-    font-size: 18px;
+    
+    
 }
 
 .nav-link {
-    color: white !important;
+    color: rgba(255, 255, 255, 0.831) !important;
+    transition: .5 all ease-in-out;
+    font-family: var(--secondary-font);
+    text-shadow: 1px 1px 4px rgb(27, 129, 133);
+    font-size: 18px;
+}   
+
+.nav-link:hover {
+    color: rgb(255, 255, 255) !important;
+    font-size: 20px;
+    
 }
 
 .menu-logo {
@@ -33,10 +42,12 @@ body {
 
 h1 {
   font-family: var(--secondary-font);  
+  font-size: 26px;
 }
 
 h2 {
     font-family: var(--secondary-font);  
+    font-size: 22px;
 }
 
 .col-md-4 {
@@ -68,6 +79,8 @@ h5 {
 
 .desserts-header {
     font-family: var(--primary-font);
+    font-size: 50px;
+    font-weight: 500px;
 }
 
 .dessert-main-image-wrapper {
@@ -106,12 +119,14 @@ h5 {
 .footer a {
     margin-top: 40px;
     text-decoration: none;
-    color: white; 
-    transition: .5s all ease-in-out;  
+    color: rgba(255, 255, 255, 0.831) !important;
+    transition: .5s all ease-in-out;
+    font-size: 16px;  
 }
 
 .footer a:hover {
-    font-size: 16px;
+    font-size: 18px;
+    color: rgb(255, 255, 255) !important;
 }
 
 .socials {
