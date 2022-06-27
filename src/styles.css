@@ -7,6 +7,20 @@ body {
     --secondary-font: 'Joan', serif;
 }
 
+@media (max-width: 768px) {
+    .dessert-main-image-wrapper {
+       display: flex;
+       flex-direction: column;
+    }
+    .dessert-main-image {
+        margin: 0  auto;
+        min-width: 100%;
+    }
+    .dessert-main-image-b {
+        min-width: 100%;
+    }
+}
+
 .nav-link {
     color: rgba(255, 255, 255, 0.831) !important;
     transition: .5 all ease-in-out;
@@ -42,12 +56,6 @@ h1 {
 h2 {
     font-family: var(--secondary-font);  
     font-size: 22px;
-}
-
-.col-md-4 {
-    display: flex;
-    width: 33.3%;
-    justify-content: center;
 }
 
 .carousel-caption {
@@ -136,8 +144,8 @@ h5 {
 
 .dessert-main-image-wrapper {
     display: flex;
-    flex: 1;
     justify-content: center;
+    
 }
 
 .dessert-main-image {
@@ -145,6 +153,7 @@ h5 {
     height: auto;
     border-radius: 50%;
     box-shadow: inset 2px 2px 6px rgb(255, 255, 255);
+    
 }
 .dessert-main-image-b {
     width: 350px;
