@@ -8,6 +8,8 @@ body {
 }
 
 @media (max-width: 768px) {
+    
+    
     .dessert-main-image-wrapper {
        display: flex;
        flex-direction: column;
@@ -19,6 +21,12 @@ body {
     .dessert-main-image-b {
         min-width: 100%;
     }
+
+    .profile-image {
+        min-width: 80%;
+        margin: 0 auto;
+    }   
+
 }
 
 .nav-link {
@@ -118,6 +126,7 @@ h5 {
     padding: 30px;
     text-align: left;
     float: left;
+    font-size: 16px;
     font-family: var(--secondary-font);
 }
 
@@ -126,15 +135,18 @@ h5 {
     padding: 30px;
     text-align: right;
     float: right;
+    font-size: 16px;
     font-family: var(--secondary-font);
 }
 
 .profile-image {
     display: flex;
-    justify-content: center;
+    margin: 0 auto;
     border-radius: 50%;
     margin-top: 30px;
     margin-bottom: 30px;
+    max-width: 100%;
+    height: auto;
 }
 
 .desserts-header {
@@ -144,8 +156,7 @@ h5 {
 
 .dessert-main-image-wrapper {
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 .dessert-main-image {
@@ -192,7 +203,6 @@ h5 {
     bottom: 0;
     color: white;
     font-family: var(--secondary-font);
-    font-size: 16px;
     text-shadow: 1px 1px 4px rgb(27, 129, 133);
     
 }
