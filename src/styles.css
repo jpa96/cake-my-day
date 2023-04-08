@@ -110,7 +110,7 @@ h5 {
     justify-content: center; 
 }
 
-.about-header {
+.content-header {
     display: flex;
     justify-content: center;
     font-family: var(--primary-font);
