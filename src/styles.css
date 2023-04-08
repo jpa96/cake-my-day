@@ -31,7 +31,9 @@ body {
 
 .nav-link {
     color: rgba(255, 255, 255, 0.831) !important;
-    transition: .5 all ease-in-out;
+    will-change: transform;
+    width: 100px;
+    transition: all 0.5s ease-in-out;
     font-family: var(--secondary-font);
     text-shadow: 1px 1px 4px rgb(27, 129, 133);
     font-size: 18px;
@@ -40,6 +42,8 @@ body {
 .nav-link:hover {
     color: rgb(255, 255, 255) !important;
     font-size: 20px;
+    width: 100px;
+    will-change: transform;
     
 }
 
@@ -74,6 +78,13 @@ h5 {
     font-family: var(--primary-font);
     font-size: 38px;
     text-shadow: 1px 1px 4px black;
+}
+
+.cakes-multiple {
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    text-align: center;
+    line-height: 35px;
 }
 
 .gallery-button {
@@ -208,6 +219,8 @@ h5 {
 }
 
 .footer a {
+   
+    width: 100px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.831) !important;
     transition: .5s all ease-in-out;
