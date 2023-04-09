@@ -32,19 +32,17 @@ body {
 .nav-link {
     color: rgba(255, 255, 255, 0.831) !important;
     will-change: transform;
-    width: 100px;
     transition: all 0.5s ease-in-out;
     font-family: var(--secondary-font);
     text-shadow: 1px 1px 4px rgb(27, 129, 133);
     font-size: 18px;
-}   
+    transform-origin: top;
+}
 
 .nav-link:hover {
     color: rgb(255, 255, 255) !important;
-    font-size: 20px;
-    width: 100px;
     will-change: transform;
-    
+    transform: scale(1.1);
 }
 
 .menu-logo {
@@ -219,16 +217,15 @@ h5 {
 }
 
 .footer a {
-   
-    width: 100px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.831) !important;
-    transition: .5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     font-size: 16px;  
+    transform-origin: bottom;
 }
 
 .footer a:hover {
-    font-size: 18px;
+    transform: scale(1.1);
     color: rgb(255, 255, 255) !important;
 }
 
